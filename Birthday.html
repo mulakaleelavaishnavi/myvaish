@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Birthday</title>
+      
+<link type="text/css" rel="stylesheet" href="css_project.css">
+       <style type="text/css">
+            .scrool{
+                background-color: palevioletred;
+                padding: 20px;
+                border-radius: 70px;
+                text-align: center;
+                margin-top: 4px;
+            }
+            #submit-button{
+                padding-right: 100px;
+                padding-top:13px;
+                margin-top: 20px;
+            }
+            .border{
+                border-radius:9px;
+            }
+            .h1_heading{
+                text-align: center;
+                color:darkcyan
+            }
+            #eve-bud{
+                width:72px
+            }
+            #guests{
+                width:48px
+            }
+
+        </style>
+    </head>
+    <body style="background-color:antiquewhite;">
+        <div><h1 class="h1_heading"><i>Birthday Event</i></h1></div>
+        <div></div>
+        <div class="scrool" >
+            <form>
+                Birthday Candidate Name: <input type="text" placeholder="Full Name" class="border"/>
+                E-Mail: <input type="email" placeholder="Mail-Id" class="border"/>
+                Ph:No <select>
+                    <option>+91</option>
+                    <option>+1</option>
+                    <option>+971</option>
+                </select><input type="text" size="11px" required/><br><br>
+                Preffered date <input type="date">
+                Additional Add-On's <input type="text" placeholder="Add-On's(Optional)"><br><br>
+                <div>
+                    Event Budget <input type="number" placeholder="(rupees)" size="5px" id="eve-bud"/>
+                    Number of Guests <input type="number" size="5px" id="guests" min="1"/>
+                    Theme(Optional) <select>
+                    <option></option>
+                    <option>Traditional</option>
+                    <option>Carnival</option>
+                    <option>Vintage</option>
+                    <option>Superheroes</option>
+                    <option>Toyland</option>
+                </select>
+                </div>
+               <div id="submit-button"><input type="submit" value="Submit" class="border">
+                <input type="reset" class="border">
+            </div>
+            </form>
+        </div>
+        <br>
+        <div class="container bg-light" style="height: 15px;"><marquee behavior="scrool" style="margin-top: -10px;padding-top: 8px;color: crimson;">All types of custom events are available</marquee></div>
+    </body>
+</html>
